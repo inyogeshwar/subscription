@@ -1,0 +1,8 @@
+pyTelegramBotAPI==4.33.0
+pymongo[srv]==4.10.1
+apscheduler==3.10.4
+Flask==3.0.3
+python-dotenv==1.0.1
+qrcode==7.4.2
+pillow==10.3.0
+pytz==2024.1
