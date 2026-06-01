@@ -1,12 +1,12 @@
 import threading
 import telebot
 from flask import Flask
-from subscription.config import BOT_TOKEN
-from subscription.database import init_db
-from subscription.payment_manager import register_payment_handlers, process_start_deep_link
-from subscription.admin_manager import register_admin_handlers
-from subscription.expiry_scheduler import start_expiry_scheduler
-from subscription.subscription_manager import premium_required
+from config import BOT_TOKEN
+from database import init_db
+from payment_manager import register_payment_handlers, process_start_deep_link
+from admin_manager import register_admin_handlers
+from expiry_scheduler import start_expiry_scheduler
+from subscription_manager import premium_required
 
 # Flask Server Configuration
 app = Flask(__name__)
